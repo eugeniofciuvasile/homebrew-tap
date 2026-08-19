@@ -1,26 +1,26 @@
 class SshXTerm < Formula
   desc "TUI to handle multiple SSH connections simultaneously"
   homepage "https://github.com/eugeniofciuvasile/ssh-x-term"
-  version "2.1.0"
+  version "2.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.0/ssh-x-term-darwin-arm64"
-      sha256 "044a3bc70161178061ea61be15f5d823d39cb82a48aac30361f76d24784ac844"
+      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.2/ssh-x-term-darwin-arm64"
+      sha256 "9644168a44ef506dae8c6374f2e2f1a0ab2faa70c299d379f7b088fb70cc6e85"
     else
-      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.0/ssh-x-term-darwin-amd64"
-      sha256 "76350b8f5ecd4b360f7ef02b35d8ec23741b2c0b58683196067b39c202bef9d2"
+      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.2/ssh-x-term-darwin-amd64"
+      sha256 "d2d68766c6dead631870395f8102d6cd22453a40b131ac0bf90fbdc2f8f24460"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.0/ssh-x-term-linux-arm64"
-      sha256 "a92d033a408b98a66be1c34e78e58ab9444b1956891c41ff5ed8c69801b237ce"
+      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.2/ssh-x-term-linux-arm64"
+      sha256 "6657fbf97eeed21665e113f3e0201ed35506c86666e94fc34f978ef2735d118a"
     else
-      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.0/ssh-x-term-linux-amd64"
-      sha256 "2c4267f58f0fd734db95039183c458f66179d39e6235aeb9b8da1ff15a236959"
+      url "https://github.com/eugeniofciuvasile/ssh-x-term/releases/download/v2.1.2/ssh-x-term-linux-amd64"
+      sha256 "edff83de6879bc393a117897e9392e12f1dbd63ba7a01e1d3391ac7950e7cdaf"
     end
   end
 
